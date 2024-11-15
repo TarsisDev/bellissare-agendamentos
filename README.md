@@ -14,19 +14,49 @@ Este projeto foi criado como parte de um trabalho acadêmico e utiliza o framewo
 ## 📁 Estrutura de Pastas
 
 ```plaintext
-bellissare-agendamentos/
-├── src/
-│   ├── assets/             # Fonts e imagens utilizadas no aplicativo
-│   ├── components/         # Componentes React criados para o projeto
-│   ├── main/               # Componente principal do aplicativo
-│   ├── mocks/              # Mock data para simulações durante o desenvolvimento
-│   ├── navigation/         # Configuração de rotas e navegação
-│   ├── screens/            # Telas principais do aplicativo
-│   └── utils/              # Funções utilitárias e helpers
-├── .gitignore
-├── App.tsx                 # Arquivo principal do aplicativo Expo
-├── package.json
-└── README.md
+.babelrc
+.gitignore
+app.json
+App.js
+package.json
+yarn.lock
+src/
+├── assets/               # Imagens, fontes, ícones personalizados
+│   ├── images/
+│   └── fonts/
+├── components/           # Componentes reutilizáveis
+│   ├── Button.js
+│   ├── Input.js
+│   ├── Card.js
+│   └── styles/           # Estilos isolados para componentes (opcional)
+│       ├── ButtonStyles.js
+│       └── InputStyles.js
+├── main/                 # Arquivo principal de inicialização
+│   └── Main.js           
+├── mocks/                # Dados fictícios para testes
+│   └── servicesMock.js   
+├── navigation/           # Configuração de navegação
+│   ├── AppNavigator.js
+│   ├── TabNavigator.js
+│   └── StackNavigator.js
+├── screens/              # Telas principais do app
+│   ├── HomeScreen/
+│   │   ├── HomeScreen.js
+│   │   └── styles.js
+│   ├── LoginScreen/
+│   │   ├── LoginScreen.js
+│   │   └── styles.js
+│   ├── ProfileScreen/
+│   │   ├── ProfileScreen.js
+│   │   └── styles.js
+├── styles/               # Estilos globais e temas
+│   ├── GlobalStyles.js
+│   ├── colors.js
+│   └── theme.js
+└── utils/                # Funções utilitárias e helpers
+    ├── api.js
+    ├── constants.js
+    └── formatDate.js
 ```
 ## 🛠️ Ferramentas e Tecnologias
 
