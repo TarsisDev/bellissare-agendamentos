@@ -62,9 +62,9 @@ src/
 
 - **React Native**: Framework de desenvolvimento mobile multiplataforma.
 - **Expo**: Ferramenta para desenvolvimento rápido em React Native.
-- **TypeScript**: Linguagem que adiciona tipagem estática ao JavaScript.
+- **TypeScript**: Linguagem que adiciona tipagem estática ao JavaScript. //não foi implementado ainda
 - **Styled Components**: Biblioteca para estilização de componentes com CSS-in-JS.
-- **React Navigation**: Navegação entre telas.
+- **React Navigation**: Navegação entre telas. //não foi implementado ainda
 - **Git e GitHub**: Controle de versão e repositório.
 
 ## 🖥️ Configuração do Projeto
