@@ -25,33 +25,21 @@ src/
 │   ├── images/
 │   └── fonts/
 ├── components/           # Componentes reutilizáveis
-│   ├── Button.js
-│   ├── Input.js
-│   ├── Card.js
+│   ├── Button/
 │   └── styles/           # Estilos isolados para componentes (opcional)
-│       ├── ButtonStyles.js
-│       └── InputStyles.js
+│
 ├── main/                 # Arquivo principal de inicialização
 │   └── Main.js           
 ├── mocks/                # Dados fictícios para testes
-│   └── servicesMock.js   
+│ 
 ├── navigation/           # Configuração de navegação
-│   ├── AppNavigator.js
-│   ├── TabNavigator.js
-│   └── StackNavigator.js
+│   
 ├── screens/              # Telas principais do app
 │   ├── HomeScreen/
 │   │   ├── HomeScreen.js
 │   │   └── styles.js
-│   ├── LoginScreen/
-│   │   ├── LoginScreen.js
-│   │   └── styles.js
-│   ├── ProfileScreen/
-│   │   ├── ProfileScreen.js
-│   │   └── styles.js
 ├── styles/               # Estilos globais e temas
 │   ├── GlobalStyles.js
-│   ├── colors.js
 │   └── theme.js
 └── utils/                # Funções utilitárias e helpers
     ├── api.js
